@@ -1,0 +1,15 @@
+{
+  "item.howlingsun.silver_ingot": "Lingote de Plata",
+  "item.howlingsun.silver_raw": "Plata en Bruto",
+  "item.howlingsun.silver_nugget": "Pepita de Plata",
+  "item.howlingsun.silversword": "Espada de Plata",
+
+  "block.howlingsun.silver_block": "Bloque de Plata",
+  "block.howlingsun.silver_ore": "Mena de Plata",
+  "block.howlingsun.silver_ore_deepslate": "Mena de Plata Profunda",
+
+  "itemgroup.howling": "Howling Sun",
+
+  "key.category.howlingsun": "Howling Sun",
+  "key.category.howlingsun.menu": "Menu"
+}

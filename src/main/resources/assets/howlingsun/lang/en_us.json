@@ -1,0 +1,15 @@
+{
+  "item.howlingsun.silver_ingot": "Silver Ingot",
+  "item.howlingsun.silver_raw": "Raw Silver",
+  "item.howlingsun.silver_nugget": "Silver Nugget",
+  "item.howlingsun.silversword": "Silver Sword",
+
+  "block.howlingsun.silver_block": "Silver Block",
+  "block.howlingsun.silver_ore": "Silver Ore",
+  "block.howlingsun.silver_ore_deepslate": "Deepslate Silver Ore",
+
+  "itemgroup.howling": "Howling Sun",
+
+  "key.category.howlingsun": "Howling Sun",
+  "key.category.howlingsun.menu": "Menu"
+}

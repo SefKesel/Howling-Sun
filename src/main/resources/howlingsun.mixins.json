@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "sefkesel.howlingsun.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ModEntityDataSaverMixin",
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
