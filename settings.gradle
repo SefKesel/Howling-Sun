@@ -1,6 +1,10 @@
 pluginManagement {
 	repositories {
 		maven {
+			name = "CottonMC"
+			url = "https://server.bbkr.space/artifactory/libs-release"
+		}
+		maven {
 			name = 'Fabric'
 			url = 'https://maven.fabricmc.net/'
 		}
