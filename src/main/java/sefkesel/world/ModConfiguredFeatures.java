@@ -1,4 +1,4 @@
-package sefkesel.howlingsun.world;
+package sefkesel.world;
 
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
@@ -11,8 +11,8 @@ import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
-import sefkesel.howlingsun.HowlingSun;
-import sefkesel.howlingsun.blocks.ModBlocks;
+import sefkesel.HowlingSun;
+import sefkesel.blocks.ModBlocks;
 
 import java.util.List;
 

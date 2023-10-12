@@ -1,9 +1,9 @@
-package sefkesel.howlingsun.world.gen;
+package sefkesel.world.gen;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.world.gen.GenerationStep;
-import sefkesel.howlingsun.world.ModPlacedFeatures;
+import sefkesel.world.ModPlacedFeatures;
 
 public class ModWorldGeneration {
     public static void generateModWorldGen() {

@@ -1,10 +1,10 @@
-package sefkesel.howlingsun.data;
+package sefkesel.world.data;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
-import sefkesel.howlingsun.HowlingSun;
+import sefkesel.HowlingSun;
 
 import java.util.concurrent.CompletableFuture;
 

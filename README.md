@@ -22,3 +22,4 @@ Tree system where you chose especial abilities that can be passives or actives
   * Vampire  
   * DemiGod  
   * Half Demon
+  * Druid

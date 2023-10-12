@@ -1,4 +1,4 @@
-package sefkesel.howlingsun.items;
+package sefkesel.items;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -7,8 +7,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import sefkesel.howlingsun.HowlingSun;
-import sefkesel.howlingsun.blocks.ModBlocks;
+import sefkesel.HowlingSun;
+import sefkesel.blocks.ModBlocks;
 
 public class ModItemsGroups {
     public static final ItemGroup Howling_Group = Registry.register(Registries.ITEM_GROUP,

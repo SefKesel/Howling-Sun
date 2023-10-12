@@ -1,4 +1,4 @@
-package sefkesel.howlingsun.world;
+package sefkesel.world;
 
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
@@ -12,7 +12,7 @@ import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.PlacedFeature;
 import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 import net.minecraft.world.gen.placementmodifier.PlacementModifier;
-import sefkesel.howlingsun.HowlingSun;
+import sefkesel.HowlingSun;
 
 import java.util.List;
 

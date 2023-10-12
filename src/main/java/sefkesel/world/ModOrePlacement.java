@@ -1,4 +1,4 @@
-package sefkesel.howlingsun.world;
+package sefkesel.world;
 
 import net.minecraft.world.gen.placementmodifier.*;
 
