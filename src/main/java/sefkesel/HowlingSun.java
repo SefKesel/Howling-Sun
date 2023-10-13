@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory;
 import sefkesel.blocks.ModBlocks;
 import sefkesel.items.ModItems;
 import sefkesel.items.ModItemsGroups;
+import sefkesel.networking.ModMessages;
+import sefkesel.sounds.ModSounds;
 import sefkesel.world.gen.ModWorldGeneration;
 
 public class HowlingSun implements ModInitializer {
@@ -25,6 +27,9 @@ public class HowlingSun implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlock();
+		ModSounds.registerSounds();
+
+		ModMessages.registerC2SPackets();
 
 		ModWorldGeneration.generateModWorldGen();
 

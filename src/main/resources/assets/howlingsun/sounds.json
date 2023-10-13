@@ -1,0 +1,12 @@
+{
+  "howling": {
+    "subtitle": "sounds.howlingsun.howling",
+    "sounds": [
+      "howlingsun:howl1",
+      "howlingsun:howl2",
+      "howlingsun:howl3",
+      "howlingsun:howl4",
+      "howlingsun:howl5"
+    ]
+  }
+}

@@ -10,6 +10,9 @@
 
   "itemgroup.howling": "Howling Sun",
 
+  "sounds.howlingsun.howling": "Howl",
+
   "key.category.howlingsun": "Howling Sun",
-  "key.category.howlingsun.menu": "Menu"
+  "key.category.howlingsun.menu": "Menu",
+  "key.category.howlingsun.transform": "Transform"
 }
