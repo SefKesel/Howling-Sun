@@ -2,9 +2,12 @@ package sefkesel;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sefkesel.blocks.ModBlocks;
+import sefkesel.entities.ModEntities;
+import sefkesel.entities.custom.HowlerEntity;
 import sefkesel.items.ModItems;
 import sefkesel.items.ModItemsGroups;
 import sefkesel.networking.ModMessages;
@@ -28,10 +31,12 @@ public class HowlingSun implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlock();
 		ModSounds.registerSounds();
+		ModEntities.registerModEntities();
 
 		ModMessages.registerC2SPackets();
 
 		ModWorldGeneration.generateModWorldGen();
+		FabricDefaultAttributeRegistry.register(ModEntities.HOWLER, HowlerEntity.createHowlerAttributes());
 
 	}
 }

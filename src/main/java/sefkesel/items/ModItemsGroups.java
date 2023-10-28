@@ -18,6 +18,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.SILVER_RAW);
                         entries.add(ModItems.SILVER_NUGGET);
                         entries.add(ModItems.SILVER_INGOT);
+                        entries.add(ModItems.HOWLER_EGG);
 
 
 

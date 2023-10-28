@@ -6,11 +6,16 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
 import sefkesel.networking.ModMessages;
+import sefkesel.sounds.ModSounds;
 
 @Environment(EnvType.CLIENT)
 public class KeyEventHandler {
@@ -23,13 +28,11 @@ public class KeyEventHandler {
     public static void registerKeyInputs(){ // Que sucede segun la tecla presionada
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             if(openMenu.wasPressed()){
-                assert client.player != null;
                 client.player.sendMessage(Text.literal("Cacota, espero que funcione"));
                 // MinecraftClient.getInstance().setScreen(new ModScreen(new ModMenu()));
                 // ClientPlayNetworking.send(ModPackets.MENU_ID, PacketByteBufs.create());
             }
             if(transform.wasPressed()){
-                assert  client.player != null;
                 ClientPlayNetworking.send(ModMessages.HOWL_ID, PacketByteBufs.create());
             }
         });
